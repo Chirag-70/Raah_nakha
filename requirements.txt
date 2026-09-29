@@ -1,5 +1,8 @@
-streamlit>=1.38
+streamlit>=1.40
 numpy>=1.26
 pandas>=2.2
-Pillow>=10.0
-opencv-python-headless>=4.10
+scipy>=1.13
+folium>=0.17
+streamlit-folium>=0.24
+matplotlib>=3.9
+pillow>=10.0
