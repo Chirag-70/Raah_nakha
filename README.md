@@ -75,16 +75,7 @@ streamlit run app.py
 
 ---
 
-## Important Prototype Limitation
 
-Streamlit's Python backend does not automatically receive native Android SensorEvent
-data from the phone.
-
-Therefore the current real-data path is CSV-based.
-
-A later browser sensor bridge can be added for live phone motion sensors.
-
----
 
 ## ESKF / IEKF Scope
 
