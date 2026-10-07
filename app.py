@@ -62,7 +62,7 @@ OSM Map
 )
 
 st.sidebar.info(
-    "AI/ML model is intentionally disabled in this prototype."
+    "AI/ML model is intentionally disabled in this prototype,Because data fetching from mobile IMUs sensors are only carried by app only not website."
 )
 
 
@@ -74,7 +74,7 @@ if mode == "1-Minute Sample Route":
 
     st.info(
         "Demo route: approximately 300 m straight → 90° right turn → "
-        "approximately 300 m straight."
+        "approximately 300 m straight,for better understanding"
     )
 
     imu_df = generate_sample_route()
