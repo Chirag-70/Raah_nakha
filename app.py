@@ -6,10 +6,10 @@ from core.dead_reckoning import run_dead_reckoning
 from core.map_overlay import create_map
 from input.imu_csv import validate_imu_csv
 
-if st.button("App Download link:"):
+if st.button("App Download link:",type="primary"):
     st.write("https://github.com/Chirag-70/sih_raah/releases/download/v1.0.0/app-release.apk")
 else:
-    st.write("Goodbye")
+    st.write("Hello Judges & Mentors..")
 
 
 st.set_page_config(
